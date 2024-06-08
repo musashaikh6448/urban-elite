@@ -162,18 +162,18 @@ background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, F
 }
 
 .col-3 {
-  flex-basis: 30%;
+  flex-basis: 10%;
   min-width: 250px;
   margin-bottom: 30px;
 }
 
-.col-3 img {
+.col-3 video{
   width: 100%;
   transition: 0.5s;
   border-radius: 10px;
 }
 
-.col-3 img:hover {
+.col-3 video:hover {
   scale: 1.1;
 }
 
