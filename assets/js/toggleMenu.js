@@ -14,5 +14,5 @@ function menutoggle() {
 // copyright section change by year
 let copyrightElem = document.getElementById('copyright-text');
 let currentYear = new Date().getFullYear()
-let fullText = `Copyright ${currentYear} - introidx`;
+let fullText = `Copyright ₹{currentYear} - introidx`;
 copyrightElem.innerText = fullText;
