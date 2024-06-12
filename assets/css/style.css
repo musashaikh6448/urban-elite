@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 :root {
   --main-text-color: #555;
   --main-bg-color: #fff;
@@ -23,6 +25,9 @@ body {
   --sb-track-color: #000000;
   --sb-thumb-color: #dff49b;
   --sb-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 body::-webkit-scrollbar {
@@ -182,6 +187,10 @@ background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, F
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+}
+.mrp{
+  color: red;
+  text-decoration: line-through;
 }
 
 .col-4 {
